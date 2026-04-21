@@ -1,0 +1,67 @@
+{
+  "footer": {
+    "quote": [
+      "‘Today, which I spent in vain, is the tomorrow that",
+      "someone who died yesterday so desperately longed for.’"
+    ],
+    "text1": "I strive to continuously study and grow so that I am not ashamed of who I was yesterday.",
+    "text2": "By accurately understanding evolving web trends and user experiences, I aim to become a publisher who actively creates better outcomes.",
+    "disclaimer": "This site was created for personal portfolio purposes only and not for commercial use."
+  },
+  "hero": {
+    "line1": {
+      "first": "Design",
+      "second": "Sense"
+    },
+    "line2": {
+      "first": "Code",
+      "second": "Implementation"
+    }
+  },
+  "profile": {
+    "name": "Minju Lee",
+    "birth": "November 9, 2000",
+    "text1": "I structure intuitive design into solid layouts,",
+    "text2": "and bring them to life through code.",
+    "text3": [
+      "Throughout the process of building web interfaces,",
+      "I have grown as a publisher by paying close attention to even the smallest details."
+    ],
+    "text4": "Working with HTML, CSS, and JavaScript, I have learned to balance structure and presentation,",
+    "text5": "and based on that experience, I now focus not just on displaying content, but on making it truly functional.",
+    "text6": "Currently, I am expanding my capabilities as a frontend developer by learning React.",
+    "experience1": "Chanolja Innovation Co., Ltd.",
+    "experience2": "Picco",
+    "experience_text": "Development Team / Design Support & Publishing",
+    "education": "SBS Academy Computer Art",
+    "education_text": "Completed Web Design & Publishing Course",
+    "certification1": "Korean (HWP) / Excel / PowerPoint : Level A",
+    "certification2": "Photoshop / Illustrator / InDesign : Level 1"
+  },
+  "projects": {
+    "tag1": "Planning 100%",
+    "tag2": "Design 100%",
+    "tag3": "Publishing 100%",
+    "tag4": "Responsive",
+    "tag5": "Subpages 100%",
+    "tag6": "Branding",
+    "tag7": "Desktop",
+    "tag8": "Slider",
+
+    "lp_text": "This project involved branding and developing the main page of an LP record e-commerce website. To capture the unique analog feel of vinyl records, a warm and soft visual tone was established using brown color palettes and curved UI elements. The content flow was structured based on real-world commerce site patterns, allowing users to naturally explore products. A card-based layout and clear visual hierarchy were applied to enhance usability. The slider was implemented from scratch using JavaScript without relying on external plugins.",
+    "pablo_text": "This project focused on redesigning and developing the Pablo&Co pet supplies website. Created during an academy portfolio course, the existing complex structure was reorganized into a more intuitive and user-friendly layout. Users can log in via email input, and key features such as the menu, cart, and my page were implemented to reflect a real service flow. Each functionality can be explored step by step within the site.",
+    "yp_text": "This is a personal project involving the design and development of the Youngpoong Bookstore main page. While maintaining the brand’s signature green color, the overly fragmented layout of the original site was reorganized to simplify the UI and improve accessibility to key content. The layout was redesigned based on real service components such as banner sections, recommended books, and category-based sliders. A card-based structure and spacing-focused design were applied to establish a clear visual hierarchy. This project marks my first design work, from wireframing to final UI, created using Figma.",
+
+    "title1": "Company Logo Banner",
+    "title2": "ET Van Recruitment Banner",
+    "title3": "Friend Referral Event Guide",
+    "title4": "Enjoy Jeju Travel Promotion",
+    "title5": "Roulette Event Banner",
+    "title6": "Event Winning Discount Coupon",
+    "title7": "Developer Recruitment Detail Page",
+    "title8": "2024 Recruitment Detail Page",
+    "title9": "Camper Van Workation Detail Page",
+    "title10": "Pet Registration Infographic",
+    "title11": "Disposable Product Regulation Card News"
+  }
+}

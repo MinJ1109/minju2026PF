@@ -1,0 +1,132 @@
+@use "reset";
+@use "variables";
+@use "page";
+
+.app {
+  transition: opacity 0.4s ease;
+}
+
+.app.hide {
+  opacity: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  font-family:
+    "Pretendard Variable",
+    Pretendard,
+    -apple-system,
+    BlinkMacSystemFont,
+    system-ui,
+    Roboto,
+    "Helvetica Neue",
+    "Segoe UI",
+    "Apple SD Gothic Neo",
+    "Noto Sans KR",
+    "Malgun Gothic",
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--gray-color05);
+  color: var(--text-color);
+  font-weight: var(--ft-weight02);
+}
+
+.hoverEffect {
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: var(--main-color);
+  }
+}
+
+mark {
+  font-style: normal;
+  background-color: transparent;
+}
+
+// *
+
+@media screen and (min-width: 1920px) {
+  #header,
+  #footer,
+  #root {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    user-select: none;
+  }
+
+  #header {
+    left: 50% !important;
+    transform: translateX(-50%);
+  }
+}
+
+#root {
+  > div {
+    > section {
+      margin-bottom: 20rem;
+      padding-left: 1.4rem;
+      padding-right: 1.4rem;
+    }
+  }
+}
+
+.headerInner,
+.footerInner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+@media screen and (max-width: 1919px) {
+  #header,
+  #footer,
+  #root {
+    max-width: var(--max-width2);
+    margin: 0 auto;
+    user-select: none;
+  }
+
+  #header {
+    left: 50% !important;
+    transform: translateX(-50%);
+  }
+}
+
+// ! media query 768px 이하
+@media screen and (max-width: 768px) {
+  #header,
+  #footer,
+  #root {
+    max-width: 100%;
+  }
+
+  #header {
+    left: 0 !important;
+    transform: translateX(0);
+  }
+
+  #root {
+    > div {
+      > section {
+        margin-bottom: 15rem;
+      }
+    }
+  }
+}
