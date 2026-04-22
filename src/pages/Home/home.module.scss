@@ -467,7 +467,7 @@
       flex-direction: column;
       row-gap: 4rem;
 
-      > li:nth-of-type(2) {
+      > li:nth-of-type(2n) {
         margin-left: auto;
       }
 
@@ -476,6 +476,7 @@
         background-color: var(--gray-color04);
         display: flex;
         align-items: center;
+        align-items: flex-start;
         gap: 2.4rem;
         width: 83%;
 
@@ -490,6 +491,9 @@
         &:nth-of-type(3) .projectImg {
           background-image: url("../../assets/images/img_web_book.png");
         }
+        &:nth-of-type(4) .projectImg {
+          background-image: url("../../assets/images/img_web_kte.png");
+        }
 
         .projectImg {
           height: 300px;
@@ -500,6 +504,7 @@
         }
         .projectText {
           flex: 2;
+          padding-top: 1rem;
           h3 {
             font-weight: var(--ft-weight03);
             font-size: var(--ft-size06);
@@ -521,6 +526,7 @@
             align-items: center;
             gap: 1rem;
             padding: 2.4rem 0;
+            flex-wrap: wrap;
 
             li {
               background-color: var(--gray-color03);
@@ -1082,6 +1088,7 @@
             flex: 1.6 1;
           }
           .projectText {
+            padding-top: 0;
             h3 {
               font-size: var(--ft-size05);
 

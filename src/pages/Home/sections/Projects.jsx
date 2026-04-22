@@ -244,6 +244,32 @@ export default function Projects() {
                 <p>{t("projects.yp_text")}</p>
               </div>
             </li>
+            <li style={{ animationDelay: "0.5s" }}>
+              <div className={styles.projectImg}></div>
+              <div className={styles.projectText}>
+                <h3>
+                  회사 재직 시 작업물 모음
+                  <a
+                    href="https://www.figma.com/design/l9Oc9gR0ZN0hnTW9rzhYms/%ED%9A%8C%EC%82%AC-%EC%9E%91%EC%97%85-%EC%9D%B4%EB%A0%A5?node-id=0-1&t=r4PyPy9fXaTg0tXo-1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    VIEW
+                  </a>
+                </h3>
+                <ol>
+                  <li>{t("projects.tag1")}</li>
+                  <li>{t("projects.tag2")}</li>
+                  <li>{t("projects.tag3")}</li>
+                  <li>{t("projects.tag4")}</li>
+                  <li>{t("projects.tag5")}</li>
+                  <li>{t("projects.tag6")}</li>
+                  <li>{t("projects.tag7")}</li>
+                  <li>{t("projects.tag8")}</li>
+                </ol>
+                <p>{t("projects.figma_text")}</p>
+              </div>
+            </li>
           </ul>
         )}
         {activeTab === "design" && (
